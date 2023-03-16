@@ -113,8 +113,8 @@ class NewSMSComponent extends Component
     }
     public function sendMessage($receiver)
     {
-        $api_key='aa1fe8a01b0ca8d6';
-        $secret_key = 'YzZiYzk3NWFjYjFmMWQxYzY1ZmNmOTlkNGNlYTUxYTAyODhjOTUzZDhmYjY5NzFhMjYxYmYwOTQxY2NkZmI0NQ==';
+        $api_key='';
+        $secret_key = '';
         $postData = array(
             'source_addr' => 'Edupack',
             'encoding'=>0,
